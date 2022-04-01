@@ -37,3 +37,20 @@ print("\n*****************************************")
 print("Array is:        {} *****".format(arr))
 print("Sorted array is: {} *****".format(quickSort(arr, 0, n-1)))
 print("*****************************************\n")
+
+a = 8
+b = 8
+
+if a>b:
+    c = b
+    b = a
+    a = c
+print(a)
+print(b)
+
+sum = 0
+iter = a
+while iter <= b:
+    sum = sum + iter
+    iter = iter + 1
+print(sum)
