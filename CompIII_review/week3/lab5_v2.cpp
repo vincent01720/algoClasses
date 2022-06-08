@@ -100,28 +100,32 @@ int main()
     ComplexNumber c2(1,2);
     cout << "Value of c2 (value constructor):\n c2.real() == " << c2.real() << ", c2.imaginary() == " << c2.imaginary() << endl;
     ComplexNumber c3(3,4);
-    
+
     cout << "c2 + c3 (" << c2 << " + " << c3 << ") == " << (c2+c3) << endl;
     cout << "c2 + c3 (" << c2 << " - " << c3 << ") == " << (c2-c3) << endl;
     cout << "c2 + c3 (" << c2 << " * " << c3 << ") == " << (c2*c3) << endl;
     cout << "c2 + c3 (" << c2 << " / " << c3 << ") == " << (c2/c3) << endl;
     cout << "(c2/c3) + (c2*c3) == " << ((c2/c3)+(c2*c3)) << endl;
-    
+    cout << "c2 is currently " << c2 << "; !c2 (complex conjugate of c2) == " << !c2 << endl;
+
+
     vector<ComplexNumber> v_complex;
     for (int i = 0; i < 10; i++)
     {
         v_complex.push_back(ComplexNumber(i, 2*i));
     }
 
+    cout << "Vector output using indexed for-loop:" << endl;
     for (int i = 0; i < 10; i++)
     {
         cout << v_complex[i] << endl;
     }
-    
-    
+
+    cout << "Vector output using an iterator in for-loop:" << endl;
     for (auto it = v_complex.begin(); it != v_complex.end(); ++it)
     {
         cout << *it << endl;
     }
+
     return 0;
 }
