@@ -21,7 +21,7 @@ class ShoppingCart{
         void AddItem(ItemToPurchase item);
         void RemoveItem(string item);
         void ModifyItem(ItemToPurchase);
-        int GetNumItemsIncart() const;
+        int GetNumItemsInCart() const;
         int GetCostOfCart() const;
         void PrintTotal() const;
         void PrintDescriptions() const;
