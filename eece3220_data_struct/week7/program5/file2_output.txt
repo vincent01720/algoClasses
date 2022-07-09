@@ -1,0 +1,38 @@
+FULL OUTPUT FROM USING FILE2.TXT AS INPUT IS SHOWN BELOW
+REMEMBER, YOUR PROGRAM DOESN'T PRINT OUTPUT TO A FILE, IT
+PRINTS TO THE SCREEN! --DR. GEIGER
+
+Enter input file name: file2.txt
+Reading file2.txt ...
+Customer 1 to express lane (A = 2, S = 3)
+Customer 2 to express lane (A = 7, S = 1)
+Customer 3 to normal lane (A = 8, S = 4)
+Customer 4 to express lane (A = 12, S = 5)
+Customer 5 to normal lane (A = 14, S = 4)
+Customer 6 to express lane (A = 16, S = 4)
+Customer 7 to express lane (A = 19, S = 5)
+Customer 8 to normal lane (A = 22, S = 4)
+Customer 9 to normal lane (A = 27, S = 6)
+Customer 10 to normal lane (A = 30, S = 6)
+Done reading file2.txt
+T = 2: Serving customer 1 in express lane
+T = 4: Done serving customer 1 in express lane
+T = 7: Serving customer 2 in express lane
+T = 7: Done serving customer 2 in express lane
+T = 8: Serving customer 3 in normal lane
+T = 11: Done serving customer 3 in normal lane
+T = 12: Serving customer 4 in express lane
+T = 14: Serving customer 5 in normal lane
+T = 16: Done serving customer 4 in express lane
+T = 17: Serving customer 6 in express lane
+T = 17: Done serving customer 5 in normal lane
+T = 20: Done serving customer 6 in express lane
+T = 21: Serving customer 7 in express lane
+T = 22: Serving customer 8 in normal lane
+T = 25: Done serving customer 7 in express lane
+T = 25: Done serving customer 8 in normal lane
+T = 27: Serving customer 9 in normal lane
+T = 32: Done serving customer 9 in normal lane
+T = 33: Serving customer 10 in normal lane
+T = 38: Done serving customer 10 in normal lane
+Done serving all customers
